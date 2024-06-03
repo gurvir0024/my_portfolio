@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio | Contact Me</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        body {
+            background: rgb(63, 70, 185);
+            background: linear-gradient(0deg, rgba(63, 70, 185, 1) 0%, rgba(0, 0, 0, 1) 100%);
+        }
+
+        h1 {
+            color: #fdde45;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .header p {
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .container1{
+            /* border: 1px solid white; */
+            margin: 8vh 15vh;
+            display: flex;
+            /* flex-wrap: wrap; */
+            justify-content: space-around;
+        }
+        .card {
+            /* border: 1px solid white; */
+            background-color: #3f46b9;
+            border-radius: 10px;
+            width: 19vw;
+            height: 23vh;
+            padding: 10px 10px;
+            box-shadow: -7px 10px 10px 0px black;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+
+        .card p{
+            margin-top: 10px;
+            color: white;
+        }
+
+        .img11{
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            transition: 0.4s;
+
+        }
+
+        .card:hover {
+            background-color: #4f54be;
+            font-size: 20px;
+        }
+
+        .card .img11:hover{
+            height: 135px ;
+        }
+
+        footer{
+            position: relative;
+            bottom: 90px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo"><img src="My_Portfolio-removebg-preview.png" alt="logo"></div>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="#" class="active">My Skills</a>
+                <a href="projects.html">My Projects</a>
+            </div>
+            <div class="cnt"><a href="contact.html">Contact Me</a></div>
+        </nav>
+    </header>
+    <section1>
+        <div class="header">
+            <h1>My <span>Skills</span></h1>
+            <p>Writting Code Using languages : HTML5, CSS3, Bootstrap5, JavaScript, PHP and Mysql. </p>
+        </div>
+    </section1>
+    <section2 class="sec2">
+        <div class="container1">
+        <div class="card">
+            <img class="img11" src="html1.png" height="130">
+            <p>HTML5</p>
+        </div>
+        <div class="card">
+            <img class="img11" src="css1.png" height="130">
+            <p>CSS3</p>
+        </div>
+        <div class="card">
+            <img class="img11" src="boot1.png" height="130">
+            <p>BOOTSTRAP 5</p>
+        </div>
+        <div class="card">
+            <img class="img11" src="js.png" height="130">
+            <p>JAVASCRIPT</p>
+        </div>
+        </div>
+    </section2>
+    <section2 class="sec2">
+        <div class="container1">
+        <div class="card">
+            <img class="img11" src="php1.png" height="130">
+            <p>PHP</p>
+        </div>
+        <div class="card">
+            <img class="img11" src="mysql.png" height="130">
+            <p>MYSQL</p>
+        </div>
+        <div class="card">
+            <img class="img11" src="react1.png" height="130">
+            <p>REACTJS</p>
+        </div>
+        <div class="card">
+            <img class="img11" src="mongo.png" height="130">
+            <p>MONGODB</p>
+        </div>
+        </div>
+    </section2>
+
+    <footer>
+        <h1>Designed By <span>Gurvir Singh</span> | Copyright &copy; All Rights Reserved</h1>
+    </footer>
+</body>
+
+</html>

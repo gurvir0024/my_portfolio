@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio | Contact Me</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        body {
+            background: rgb(63, 70, 185);
+            background: linear-gradient(0deg, rgba(63, 70, 185, 1) 0%, rgba(0, 0, 0, 1) 100%);
+        }
+
+        h1 {
+            color: #fdde45;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .header p {
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .main {
+            /* border: 2px solid blanchedalmond; */
+            margin: 5vh 8vw;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .card1 {
+            /* border: 1px solid white; */
+            /* border-top-left-radius: 20px;
+            border-top-right-radius: 20px; */
+            border-radius: 10px;
+            align-items: center;
+            overflow: hidden;
+            width: 35vw;
+            height: 60vh;
+        }
+
+        .img2 {
+            border: 10px;
+        }
+
+        .con11 {
+            /* border: 2px solid rgb(149, 117, 58); */
+            background-color: white;
+            height: 17vh;
+            margin-top: -25px;
+        }
+
+        .con11 h1 {
+            color: #000;
+            font-weight: normal;
+            padding: 5px 0px;
+        }
+
+        .con11 p {
+            color: #000;
+            text-align: center;
+            font-weight: normal;
+            padding: 5px 0px;
+        }
+
+        .con11 button {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #1e3a8a;
+            color: white;
+            margin-top: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+
+        .con11 button:hover {
+            background-color: #fdde45;
+            color: black;
+        }
+
+        .foot {
+            bottom: 120px;
+        }
+
+        .menu .active{
+            color: #fdde45;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo"><img src="My_Portfolio-removebg-preview.png" alt="logo"></div>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="skills.html">My Skills</a>
+                <a href="#" class="active">My Projects</a>
+            </div>
+            <div class="cnt"><a href="contact.html">Contact Me</a></div>
+        </nav>
+    </header>
+    <section1>
+        <div class="header">
+            <h1>My <span>Projects</span></h1>
+            <p>Here are some of my best projects and the rest of projects are available on Github & Linkedin.</p>
+        </div>
+        <section class="main">
+            <div class="card1">
+                <img class="img2" src="p1.png" height="350px" width="600px">
+                <div class="con11">
+                    <h1>CSS Card</h1>
+                    <p>Created a Simple CSS Card Design</p>
+                    <button>More Info. On Github</button>
+                </div>
+
+            </div>
+            <div class="card1">
+                <img class="img2" src="p2.png" height="350px" width="600px">
+                <div class="con11">
+                    <h1>Travel-X</h1>
+                    <p>Created a travel-x landing page design</p>
+                    <button>More Info. On Github</button>
+                </div>
+
+            </div>
+
+        </section>
+        <footer class="foot">
+            <h1>Designed By <span>Gurvir Singh</span> | Copyright &copy; All Rights Reserved</h1>
+        </footer>
+
+
+</body>
+
+</html>
