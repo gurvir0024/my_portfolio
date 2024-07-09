@@ -58,6 +58,7 @@ body {
 }
 
 .menu .active{
+    
     color: #fdde45;
 }
 
@@ -83,8 +84,6 @@ body {
     font-size: 18px;
 
 }
-
-
 
 
 
@@ -188,4 +187,34 @@ h2 span {
 .links a:hover {
     background-color: #fdde45;
     color: black;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .logo img {
+        height: 50px;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    .image img{
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        padding: 0px 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menu {
+        margin: 30px;
+        margin-right: 10px;
+    }
 }
